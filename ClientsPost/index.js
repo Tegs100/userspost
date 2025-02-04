@@ -6,7 +6,7 @@ const postRoute = require("./route/user.route")
 
 mongoose
   .connect(
-    "mongodb+srv://itz_tycon:3M7tE5tm7aPi6B15@axiacohort7.wdev4.mongodb.net/cohort8?retryWrites=true&w=majority&appName=AxiaCohort7"
+    "mongodb+srv://*******************@axiacohort7.wdev4.mongodb.net/cohort8?retryWrites=true&w=majority&appName=AxiaCohort7"
   )
   .then(() => {
     console.log("Connected to database.");
